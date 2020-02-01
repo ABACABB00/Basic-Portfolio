@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 </head>
 <body>
     <nav>
-        <header>Your Name</header>
+        <header><h1>Your Name</h1></header>
         <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="aboutlink"><a href="index.html">About</a></li>
+            <li class="portfoliolink"><a href="portfolio.html">Portfolio</a></li>
+            <li class="contactlink"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <section>
-        <h1>Portfolio</h1>
-        <img src="assets/images/hangmen.PNG" alt="hangmen">
-        <img src="assets/images/rpg.PNG" alt="RPG Game">
-        <img src="assets/images/trivia.PNG" alt="Trivia Game">
-        <img src="assets/images/rutgers.PNG" alt="Rutgers Info Widget">
-        <img src="assets/images/rock.PNG" alt="Rock Paper Scissors">
-    </section>
+    <div class="container" style="background-image: url(assets/images/background.png);">
+        <section class="clearfix">
+            <h1 class="portheader">Portfolio</h1>
+            <img src="assets/images/hangmen.PNG" alt="hangmen">
+            <img src="assets/images/rpg.PNG" alt="RPG Game">
+            <img src="assets/images/trivia.PNG" alt="Trivia Game">
+            <img src="assets/images/rutgers.PNG" alt="Rutgers Info Widget">
+            <img src="assets/images/rock.PNG" alt="Rock Paper Scissors">
+        </section>
+    </div>
     <footer><p>Copyright &copy;</p></footer>
 </body>
 </html>

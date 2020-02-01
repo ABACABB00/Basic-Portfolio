@@ -1,31 +1,56 @@
+
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 800px;
+    width: 1900px;
 }
+ .navbar {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1910px;
+  border-bottom: #cccccc 3px solid;
+ }
 
-
-#navbar {
-    height: 100px;
-    width: 100%;
-}
+ .container {
+   padding-top: 100px;
+   padding-bottom: 150px;
+ }
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #fff;
-    font-size: 35px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0px 480px 0px;
+    float: left;
+}
+
+.aboutme {
+
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
-  }
+   
+    }
   
   li {
     float: left;
+    margin-top: 25px;
   }
   
+  .aboutlink {
+    border-right: #ccc 2px solid;
+  }
+
+  .portfoliolink {
+    border-right: #ccc 2px solid;
+  }
   li a {
     color: #cccccc;
     text-align: center;
@@ -34,5 +59,24 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    color: #111;
+  }
+
+  section {
+    max-width: 950px;
+    max-height: 950px;
+    margin: auto;
+    background-color: #fff;
+    padding-bottom: 65px;
+  }
+
+  footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #666;
+    text-align: center;
+    padding-top: 65px;
+    border-top: #4aaaa5 5px solid;
   }
