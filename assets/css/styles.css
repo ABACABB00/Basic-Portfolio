@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height: 800px;
     width: 1900px;
 }
- .navbar {
+
+.navbar {
   background-color: #fff;
   position: absolute;
   top: 0;
@@ -14,13 +14,13 @@ body {
   border-bottom: #cccccc 3px solid;
  }
 
- .container {
-   padding-top: 100px;
-   padding-bottom: 150px;
- }
+.container {
+  padding-top: 100px;
+  padding-bottom: 260px;
+}
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times "New Roman", serif;
     background-color: #4aaaa5;
     color: #fff;
     padding: 10px;
@@ -29,54 +29,82 @@ header {
     float: left;
 }
 
-.aboutme {
-
-}
-
 ul {
     list-style-type: none;
     background-color: #ffffff;
    
     }
   
-  li {
-    float: left;
-    margin-top: 25px;
-  }
+li {
+  float: left;
+  margin-top: 25px;
+}
   
-  .aboutlink {
-    border-right: #ccc 2px solid;
-  }
+.aboutlink {
+  border-right: #ccc 2px solid;
+}
 
-  .portfoliolink {
-    border-right: #ccc 2px solid;
-  }
-  li a {
-    color: #cccccc;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.portfoliolink {
+  border-right: #ccc 2px solid;
+}
+
+li a {
+  color: #cccccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
-  li a:hover {
-    color: #111;
-  }
+li a:hover {
+  color: #111;
+}
 
-  section {
-    max-width: 950px;
-    max-height: 950px;
-    margin: auto;
-    background-color: #fff;
-    padding-bottom: 65px;
-  }
+section {
+  max-width: 950px;
+  max-height: 950px;
+  margin: auto;
+  background-color: #fff;
+  padding-bottom: 150px;
+  margin-top: 50px;  
+}
 
-  footer{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #666;
-    text-align: center;
-    padding-top: 65px;
-    border-top: #4aaaa5 5px solid;
-  }
+  
+.aboutme {
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  padding: 40px 30px 20px 30px;
+  font-size: 30px
+}
+
+.aboutme:after {
+  content: "";
+  display: block;
+  margin: 0 auto; 
+  width: 880px;
+  border-bottom: #ccc 3px solid;
+  padding-top: 20px;
+}
+
+img {
+  position: relative;
+  left: 30px;
+  float: left;
+  margin-right: 50px;
+}
+ 
+p {
+  font-size: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #666;
+  text-align: center;
+  padding-top: 65px;
+  border-top: #4aaaa5 5px solid;
+}

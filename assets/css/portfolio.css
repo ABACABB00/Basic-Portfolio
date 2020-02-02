@@ -15,7 +15,7 @@ nav {
 }
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times "New Roman", serif;
     background-color: #4aaaa5;
     padding: 20px;
     font-size: 15px;
@@ -36,7 +36,7 @@ header {
     position: relative;
     padding: 25px;
     font-size: 15px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times "New Roman", serif;
 }
 
 ul {
@@ -74,11 +74,11 @@ li a:hover {
     overflow: auto;
   }
 
-  .portheader {
-      padding: 30px 20px;
-      margin: 0 30px 10px;
-      border-bottom: #ccc 3px solid;
-  }
+.portheader {
+    padding: 30px 20px;
+    margin: 0 30px 10px;
+    border-bottom: #ccc 3px solid;
+}
 
 section {
     position: relative;
